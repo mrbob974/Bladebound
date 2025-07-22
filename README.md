@@ -25,12 +25,13 @@ https://yourusername.github.io/bladebound-rpg/
 ---
 
 ## 🗂 Folder Structure
-
-```
-.
+bladebound-rpg/
+│
 ├── index.html
-└── assets
-    └── sprites
+├── game.js
+├── README.md
+└── assets/
+    └── sprites/
         ├── archer.png
         ├── mage.png
         ├── miner.png
@@ -38,7 +39,6 @@ https://yourusername.github.io/bladebound-rpg/
         ├── orc.png
         ├── troll.png
         └── necromancer.png
-```
 
 ---
 
