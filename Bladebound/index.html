@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bladebound RPG</title>
+  <style>
+    body { margin: 0; background: #111; }
+    canvas { display: block; margin: auto; background: url('assets/background.png') repeat; }
+    #ui {
+      color: white;
+      text-align: center;
+      font-family: monospace;
+      padding: 10px;
+    }
+    button {
+      margin: 5px;
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div id="ui">
+    <p>Select your class:</p>
+    <button onclick="selectClass('archer')">Archer</button>
+    <button onclick="selectClass('mage')">Mage</button>
+    <button onclick="selectClass('miner')">Miner</button>
+    <button onclick="selectClass('soldier')">Soldier</button>
+    <p id="status">Choose your class to begin!</p>
+  </div>
+  <canvas id="gameCanvas" width="1024" height="768"></canvas>
+  <script src="game.js"></script>
+</body>
+</html>
